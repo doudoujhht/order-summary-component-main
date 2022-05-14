@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 450px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+main #hero {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+main #text, main #mid :nth-child(2), main #cancel {
+  font-size: 0.9em;
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 400;
+}
+main #sub-title {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 700;
+}
+main #mid {
+  text-align: left;
+}
+
+main #title {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  color: hsl(223deg, 47%, 23%);
+}
+
+main #bottom {
+  width: 70%;
+  margin-left: 15%;
+}
+
+main .price {
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+main .price .big-left {
+  display: flex;
+  width: 53%;
+  justify-content: space-between;
+  margin-left: 8%;
+  align-items: center;
+}
+main .price #mid {
+  display: flex;
+  flex-direction: column;
+}
+main .price #right {
+  color: hsl(228deg, 45%, 44%);
+  text-decoration: underline;
+  font-weight: 700;
+}
+main .price #right:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main #payment-section {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+main #payment-section .payment {
+  width: 100%;
+  padding: 5% 0%;
+  background-color: hsl(245deg, 75%, 52%);
+  text-decoration: none;
+  border-radius: 9px;
+  color: white;
+}
+main #payment-section .payment:hover {
+  background-color: hsla(245deg, 75%, 52%, 0.664);
+}
+main #payment-section #cancel {
+  margin-top: 10%;
+  margin-bottom: 11%;
+  cursor: pointer;
+}
+main #payment-section #cancel:hover {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
